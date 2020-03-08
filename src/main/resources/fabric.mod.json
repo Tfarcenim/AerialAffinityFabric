@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "aerialaffinity",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Aerial Affinity",
+  "description": "Enchantment that removes mining speed while airborne",
   "authors": [
     "Tfarecnim"
   ],
@@ -18,11 +18,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "tfar.example.ExampleMod"
+      "tfar.aerialaffinity.AerialAffinity"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "aerialaffinity.mixins.json"
   ],
 
   "depends": {
